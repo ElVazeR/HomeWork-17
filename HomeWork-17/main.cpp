@@ -11,7 +11,7 @@ T print_arr(T arr[], const int length) {
 	int sum = 0;
 	for (int i = 0; i < length; i++)
 		sum += arr[i];
-	return (double)sum / 2;
+	return (double)sum / length;
 }
 
 
